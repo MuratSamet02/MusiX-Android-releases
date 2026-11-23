@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MusiX — telifsiz müzik, cihaz içi yapay zekâ</title>
+    <meta
+      name="description"
+      content="MusiX: çevrimdışı çalışan müzik kitaplığı, cihaz içi yapay zekâ, stüdyo ve ana ekran widget'ları. APK indir."
+    />
+    <meta name="theme-color" content="#0f0c17" />
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="apple-touch-icon" href="assets/icon-192.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <img src="assets/icon.png" alt="MusiX simgesi" width="96" height="96" />
+        <h1>MusiX</h1>
+        <p>
+          Telifsiz müzik, tamamen çevrimdışı çalışan bir kitaplık ve cihazınızda
+          çalışan yapay zekâ. Reklam yok, hesap zorunluluğu yok.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" id="download" href="musix-latest.apk">
+            APK indir
+          </a>          <a class="btn btn-ghost" href="#surumler">Sürüm geçmişi</a>
+        </div>
+
+        <p class="meta" id="meta">Sürüm bilgisi yükleniyor…</p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="wrap">
+          <h2>Neler var?</h2>
+          <p class="lead">Uygulamanın tamamı telefonda çalışır; sunucu beklemez.</p>
+          <div class="grid">
+            <div class="card">
+              <h3>Çevrimdışı kitaplık</h3>
+              <p>
+                Ses ve kapaklar uygulamayla birlikte gelir. İnternet olmadan da
+                listeler, çalar ve sözleri gösterir.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Cihaz içi yapay zekâ</h3>
+              <p>
+                Qwen3 0.6B modeli telefonda çalışır. Sorularınız cihazdan
+                çıkmaz; model ilk açılışta indirilir.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Stüdyo</h3>
+              <p>
+                Tarz, ruh hâli ve tempo seçip bölümlü (intro/verse/chorus)
+                enstrümantal parça üretin.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Ana ekran widget'ları</h3>
+              <p>
+                Saat, oynatıcı, istatistik ve hızlı eylemler — dördü de gerçek
+                veriyle çalışır.
+              </p>
+            </div>
+            <div class="card">
+              <h3>5 dil, 12 tema</h3>
+              <p>
+                Türkçe, İngilizce, Almanca, İspanyolca, Arapça (RTL). Canlı
+                temalar ve simge paketleri.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Müzik asla kilitlenmez</h3>
+              <p>
+                Dinlemek için ödeme gerekmez. Üyelik yalnızca ek özellikleri
+                açar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="surumler">
+        <div class="wrap">
+          <h2>Sürüm geçmişi</h2>
+          <p class="lead">
+            En son sürüm üstte. Her sürüm yalnızca 64-bit ARM (arm64-v8a)
+            cihazlarda ve Android 11 ve üzerinde çalışır.
+          </p>
+          <div id="releases">
+            <div class="release">
+              <div class="version">2.1.0</div>
+              <div class="body">
+                <div class="date">14 Kasım 2026</div>
+                <ul>
+                  <li>6 yeni sentetik parça; katalog 12 parçaya çıktı.</li>
+                  <li>Arayüz beş dilde eksiksiz; yapay zekâ yanıtları da dile bağlı.</li>
+                  <li>Yeni widget'lar: oynatıcı, istatistik, hızlı eylemler.</li>
+                  <li>Simge paketleri 72dp güvenli alanda yeniden üretildi.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="release">
+              <div class="version">2.0.0</div>
+              <div class="body">
+                <div class="date">Kasım 2026</div>
+                <ul>
+                  <li>Stüdyo: prosedürel parça üretimi.</li>
+                  <li>Cihaz içi model ilk açılışta otomatik indirilir.</li>
+                  <li>Canlı temalar ve yeni font aileleri.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="note" style="margin-top: 20px">
+            <span>
+              <strong>Kurulum notu:</strong> APK'yı indirdikten sonra Android
+              "bilinmeyen kaynaklardan yüklemeye izin ver" uyarısı gösterebilir.
+              Ayarlar → Uygulamalar → Tarayıcınız → Özel izinler yolundan bu
+              izni verebilirsiniz.
+            </span>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>Sık sorulan sorular</h2>
+          <p class="lead">Kurulum ve gizlilik hakkında kısa yanıtlar.</p>
+
+          <details>
+            <summary>Uygulama neden Play Store'da değil?</summary>
+            <p>
+              Şimdilik doğrudan APK olarak dağıtılıyor; böylece güncellemeler
+              mağaza incelemesini beklemeden yayınlanabiliyor. Play Store
+              sürümü ayrıca planlanıyor.
+            </p>
+          </details>
+
+          <details>
+            <summary>Yapay zekâ internet gerektiriyor mu?</summary>
+            <p>
+              Hayır. Model cihaza bir kez indirildikten sonra sorular cihazda
+              yanıtlanır; sorularınız hiçbir sunucuya gönderilmez.
+            </p>
+          </details>
+
+          <details>
+            <summary>Müzikler gerçek sanatçılara mı ait?</summary>
+            <p>
+              Katalogdaki parçalar, kapaklar ve sanatçı adları kurgusaldır; ses
+              ve görseller telif riski olmadan sentetik olarak üretilmiştir.
+            </p>
+          </details>
+
+          <details>
+            <summary>Hangi cihazlarda çalışır?</summary>
+            <p>
+              64-bit ARM (arm64-v8a) işlemcili ve Android 11 (API 30) veya üzeri
+              cihazlarda. Model dosyası yerel kütüphaneye bağlı olduğu için
+              diğer mimariler desteklenmiyor.
+            </p>
+          </details>
+
+          <details>
+            <summary>Güncellemeyi nasıl kurarım?</summary>
+            <p>
+              Yeni APK'yı indirip üzerine kurun; verileriniz korunur. Eski
+              sürümden farklı bir imzayla imzalanmış APK kurulamaz — bu yüzden
+              APK'yı yalnızca bu siteden indirin.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <nav>
+          <a href="gizlilik.html">Gizlilik</a>
+          <a href="#surumler">Sürümler</a>
+          <a href="https://github.com/MuratSamet02/MusiX-Android">Kaynak</a>
+        </nav>
+        <div>MusiX · Türkiye · <span id="footyear">2026</span></div>
+      </div>
+    </footer>
+
+    <script>
+      // Sürüm bildirimi API'den (veya aynı klasördeki version.json'dan) okunur.
+      // `downloadUrl` tam adres taşır: APK başka bir sunucuda dursa bile site
+      // doğru dosyaya bağlanır. Okunamazsa indirme düğmesi devre dışı kalır ve
+      // kullanıcıya açıkça söylenir — sessizce kırık bağlantı verilmez.
+      const FEED = "version.json";
+
+      document.getElementById("footyear").textContent =
+        String(new Date().getFullYear());
+
+      fetch(FEED, { cache: "no-store" })
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
+        .then((v) => {
+          const link = document.getElementById("download");
+          const meta = document.getElementById("meta");
+
+          if (v.downloadUrl) {
+            link.href = v.downloadUrl;
+            link.removeAttribute("aria-disabled");
+            if (v.version) {
+              link.textContent = "APK indir · " + v.version;
+            }
+          } else {
+            link.removeAttribute("href");
+            link.setAttribute("aria-disabled", "true");
+            link.textContent = "İndirme bağlantısı hazırlanıyor";
+          }
+
+          const mb = v.sizeBytes
+            ? (v.sizeBytes / 1024 / 1024).toFixed(1) + " MB · "
+            : "";
+          const req = v.requires || "Android 11 ve üzeri";
+          const sha = v.sha256 && v.sha256 !== "0".repeat(64)
+            ? v.sha256.slice(0, 16) + "…"
+            : "—";
+          meta.innerHTML =
+            mb + req + " · <code>SHA-256 " + sha + "</code>";
+        })
+        .catch(() => {
+          const link = document.getElementById("download");
+          link.removeAttribute("href");
+          link.setAttribute("aria-disabled", "true");
+          link.textContent = "İndirme bağlantısı hazırlanıyor";
+          document.getElementById("meta").textContent =
+            "Sürüm bilgisi şu anda okunamıyor; lütfen daha sonra tekrar deneyin.";
+        });
+    </script>
+  </body>
+</html>

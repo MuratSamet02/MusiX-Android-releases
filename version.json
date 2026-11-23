@@ -1,0 +1,16 @@
+{
+  "name": "MusiX",
+  "version": "2.1.0",
+  "build": 21,
+  "publishedAt": "2026-11-23T16:33:15Z",
+  "commit": "5712de1768d245694a5c2bc5459306839f22b108",
+  "fileName": "musix-2.1.0.apk",
+  "latestFileName": "musix-latest.apk",
+  "downloadUrl": "https://github.com/MuratSamet02/MusiX-Android-releases/releases/download/latest/musix-latest.apk",
+  "sizeBytes": 153647079,
+  "sha256": "e52caeb41d3a386c09099debc8e17b9ec4331bb9a7dab18dedaa00077e8fc21a",
+  "signerSha256": "45d8bbabc3ca850006c48546a18df7c51a98ac9ba5d535881c3fb91357996cc5",
+  "minSdk": 30,
+  "abi": "arm64-v8a",
+  "requires": "Android 11 (API 30) ve üzeri, 64-bit ARM"
+}
